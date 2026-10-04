@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="bookmodule">
+    <!-- Базовые классы GWT -->
+    <inherits name="com.google.gwt.user.User"/>
+    <!-- Тема оформления виджетов -->
+    <inherits name="com.google.gwt.user.theme.clean.Clean"/>
+
+    <!-- Точка входа клиентского приложения -->
+    <entry-point class="org.edu.lab8.client.BookModule"/>
+
+    <!-- Пакеты, исходный код которых компилируется в JavaScript -->
+    <source path="client"/>
+    <source path="shared"/>
+</module>
